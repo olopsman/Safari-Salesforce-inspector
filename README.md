@@ -1,16 +1,14 @@
 <img src="https://raw.githubusercontent.com/sorenkrabbe/Chrome-Salesforce-inspector/master/addon/icon128.png" align="right">
 
-Salesforce inspector
+Salesforce Inspector - WIP - Not ready for use
 ===========================
-Chrome and Firefox extension to add a metadata layout on top of the standard Salesforce UI to improve the productivity and joy of Salesforce configuration, development, and integration work.
+Safari extension to add a metadata layout on top of the standard Salesforce UI to improve the productivity and joy of Salesforce configuration, development, and integration work.
 
-[![Test Status](https://travis-ci.org/sorenkrabbe/Chrome-Salesforce-inspector.svg?branch=master)](https://travis-ci.org/sorenkrabbe/Chrome-Salesforce-inspector)
 
 Installation
 ------------
 
-| [:sunny: Add to Chrome](https://chrome.google.com/webstore/detail/salesforce-inspector/aodjmnfhjibkcdimpodiifdjnnncaafh) | [:sunny: Add to Firefox](https://addons.mozilla.org/firefox/addon/salesforce-inspector/) |
-| --- | --- |
+In progress
 
 Features
 -----
@@ -45,49 +43,15 @@ Troubleshooting
 Development
 -----
 
-1. Install Node.js with npm
-2. `npm install`
+1. Install Xcode
+2. Clone the Project
+3. Open Safari and choose Develop > Allow Unsigned Extensions.
 
-### Chrome
-1. `npm run chrome-dev-build`
-2. Open `chrome://extensions/`.
-3. Enable `Developer mode`.
-4. Click `Load unpacked extension...`.
-5. Select the `addon` subdirectory of this repository.
-
-### Firefox
-
-1. `npm run firefox-dev-build`
-2. In Firefox, open `about:debugging`.
-3. Click `Load Temporary Add-on…`.
-4. Select the file `addon/manifest.json`.
-
-Unit tests
------
-1. Set up an org (e.g. a Developer Edition) and apply the following customizations:
-   1.a. Everything described in metadata in `test/org/`. Push to org with `sfdx force:mdapi:deploy --deploydir test/org -w 1000 -u [your-test-org-alias]`
-   1.b. Ensure _Allow users to relate a contact to multiple accounts_ is enabled (Setup→Account Settings)
-   1.c. Ensure the org has no _namespace prefix_ (Setup→Package Manager)
-2. Navigate to one of the extension pages and replace the file name with `test-framework.html`, for example `chrome-extension://example/test-framework.html?host=example.my.salesforce.com`.
-3. Wait until "Salesforce Inspector unit test finished successfully" is shown.
-4. If the test fails, open your browser's developer tools console to see error messages.
-
-### Linting
-
-1. `npm run eslint`
 
 Release
 -------
 Version number must be manually incremented in [addon/manifest-template.json](addon/manifest-template.json) file
 
-### Chrome
-
-If the version number is greater than the version currently in Chrome Web Store, the revision will be packaged and uploaded to the store ready for manual release to the masses.
-
-### Firefox
-
-1. `npm run firefox-release-build`
-2. Upload the file from `target/firefox/firefox-release-build.zip` to addons.mozilla.org
 
 Design Principles
 -----
@@ -104,7 +68,7 @@ Design Principles
 
 About
 -----
-By Søren Krabbe and Jesper Kristensen
+Forked from the work of Søren Krabbe and Jesper Kristensen - https://github.com/sorenkrabbe/Chrome-Salesforce-inspector
 
 License
 -----
