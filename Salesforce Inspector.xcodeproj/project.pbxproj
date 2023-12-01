@@ -29,6 +29,18 @@
 		BE85B5B12B19730900878CD4 /* CHANGES.md in Resources */ = {isa = PBXBuildFile; fileRef = BE85B5AF2B19730900878CD4 /* CHANGES.md */; };
 		BE85B5B32B19732000878CD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE85B5B22B19732000878CD4 /* README.md */; };
 		BE85B5B42B19732000878CD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE85B5B22B19732000878CD4 /* README.md */; };
+		BEAAA5272B19797D007E0666 /* inspector.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5262B19797D007E0666 /* inspector.js */; };
+		BEAAA5282B19797D007E0666 /* inspector.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5262B19797D007E0666 /* inspector.js */; };
+		BEAAA52A2B1979B6007E0666 /* react.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5292B1979B6007E0666 /* react.js */; };
+		BEAAA52B2B1979B6007E0666 /* react.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5292B1979B6007E0666 /* react.js */; };
+		BEAAA52D2B1979CB007E0666 /* react-dom.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA52C2B1979CB007E0666 /* react-dom.js */; };
+		BEAAA52E2B1979CB007E0666 /* react-dom.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA52C2B1979CB007E0666 /* react-dom.js */; };
+		BEAAA5302B1979D9007E0666 /* react-dom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA52F2B1979D9007E0666 /* react-dom.min.js */; };
+		BEAAA5312B1979D9007E0666 /* react-dom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA52F2B1979D9007E0666 /* react-dom.min.js */; };
+		BEAAA5332B1979DE007E0666 /* react.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5322B1979DE007E0666 /* react.min.js */; };
+		BEAAA5342B1979DE007E0666 /* react.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5322B1979DE007E0666 /* react.min.js */; };
+		BEAAA5362B197A34007E0666 /* setup-links.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5352B197A34007E0666 /* setup-links.js */; };
+		BEAAA5372B197A34007E0666 /* setup-links.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAAA5352B197A34007E0666 /* setup-links.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +93,12 @@
 		BE129EA02B197102007ACD4B /* Salesforce_Inspector_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Salesforce_Inspector_Extension.entitlements; sourceTree = "<group>"; };
 		BE85B5AF2B19730900878CD4 /* CHANGES.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGES.md; sourceTree = SOURCE_ROOT; };
 		BE85B5B22B19732000878CD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BEAAA5262B19797D007E0666 /* inspector.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = inspector.js; sourceTree = "<group>"; };
+		BEAAA5292B1979B6007E0666 /* react.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = react.js; path = addon/react.js; sourceTree = SOURCE_ROOT; };
+		BEAAA52C2B1979CB007E0666 /* react-dom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "react-dom.js"; path = "addon/react-dom.js"; sourceTree = SOURCE_ROOT; };
+		BEAAA52F2B1979D9007E0666 /* react-dom.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "react-dom.min.js"; path = "addon/react-dom.min.js"; sourceTree = SOURCE_ROOT; };
+		BEAAA5322B1979DE007E0666 /* react.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = react.min.js; path = addon/react.min.js; sourceTree = SOURCE_ROOT; };
+		BEAAA5352B197A34007E0666 /* setup-links.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "setup-links.js"; path = "addon/setup-links.js"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +186,12 @@
 				BE129E992B197102007ACD4B /* popup.html */,
 				BE129E9B2B197102007ACD4B /* popup.css */,
 				BE129E9D2B197102007ACD4B /* popup.js */,
+				BEAAA5292B1979B6007E0666 /* react.js */,
+				BEAAA52C2B1979CB007E0666 /* react-dom.js */,
+				BEAAA52F2B1979D9007E0666 /* react-dom.min.js */,
+				BEAAA5322B1979DE007E0666 /* react.min.js */,
+				BEAAA5352B197A34007E0666 /* setup-links.js */,
+				BEAAA5262B19797D007E0666 /* inspector.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -254,13 +278,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE129E752B197100007ACD4B /* Icon.png in Resources */,
+				BEAAA5272B19797D007E0666 /* inspector.js in Resources */,
 				BE129E7E2B197100007ACD4B /* Main.storyboard in Resources */,
 				BE129E792B197100007ACD4B /* Script.js in Resources */,
 				BE85B5B02B19730900878CD4 /* CHANGES.md in Resources */,
+				BEAAA52D2B1979CB007E0666 /* react-dom.js in Resources */,
 				BE129E732B197100007ACD4B /* Main.html in Resources */,
+				BEAAA52A2B1979B6007E0666 /* react.js in Resources */,
 				BE129E802B197101007ACD4B /* Assets.xcassets in Resources */,
+				BEAAA5302B1979D9007E0666 /* react-dom.min.js in Resources */,
 				BE85B5B32B19732000878CD4 /* README.md in Resources */,
 				BE129E772B197100007ACD4B /* Style.css in Resources */,
+				BEAAA5362B197A34007E0666 /* setup-links.js in Resources */,
+				BEAAA5332B1979DE007E0666 /* react.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,14 +300,20 @@
 			files = (
 				BE129E962B197102007ACD4B /* background.js in Resources */,
 				BE129E9C2B197102007ACD4B /* popup.css in Resources */,
+				BEAAA52B2B1979B6007E0666 /* react.js in Resources */,
 				BE85B5B42B19732000878CD4 /* README.md in Resources */,
 				BE85B5B12B19730900878CD4 /* CHANGES.md in Resources */,
+				BEAAA5312B1979D9007E0666 /* react-dom.min.js in Resources */,
 				BE129E9A2B197102007ACD4B /* popup.html in Resources */,
 				BE129E922B197102007ACD4B /* images in Resources */,
+				BEAAA5372B197A34007E0666 /* setup-links.js in Resources */,
+				BEAAA5342B1979DE007E0666 /* react.min.js in Resources */,
+				BEAAA5282B19797D007E0666 /* inspector.js in Resources */,
 				BE129E942B197102007ACD4B /* manifest.json in Resources */,
 				BE129E902B197102007ACD4B /* _locales in Resources */,
 				BE129E982B197102007ACD4B /* content.js in Resources */,
 				BE129E9E2B197102007ACD4B /* popup.js in Resources */,
+				BEAAA52E2B1979CB007E0666 /* react-dom.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
